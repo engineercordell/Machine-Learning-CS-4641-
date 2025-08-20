@@ -1,0 +1,23 @@
+name: ml_hw3_test
+channels:
+    - defaults
+dependencies:
+    - python=3.11
+    - matplotlib
+    - numpy
+    - imageio
+    - scikit-learn
+    - notebook
+    - pandas
+    - scipy
+    - ipykernel
+    - ipywidgets
+    - statsmodels
+    - seaborn
+    - jupyter
+    - jupyterlab
+    - plotly
+    - pip
+    - pip:
+        - kaleido==0.1.0.post1
+        - statsmodels
